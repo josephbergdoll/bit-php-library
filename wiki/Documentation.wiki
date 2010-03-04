@@ -2,7 +2,7 @@
 
 = Introduction =
 
-The class is very simple and easy to use which you can start making calls to the API for Bandsintown.
+This class had made it very simple to make API calls to Bandsintown to receive concert data about artists and related artists.
 
 = Details =
 
@@ -57,6 +57,6 @@ Step 3. Perform the single artist events search API
 
 It's that simple! Please refer to the examples.php for more on how you can you perform other calls with this library.
 
-DISCLAIMER: This code is open source. That means in plain in English that I cannot guarantee the effectiveness of the code and that is production ready. Product is provided AS-IS and no warranties are in effect. If you encounter any issues - please use the bug tracker and or send me a message on twitter (http://twitter.com/gregavola) and I'll be quick to reply.
+DISCLAIMER: This code is open source. That means, in plain English, that I cannot guarantee the effectiveness of the code and that it is production ready. The Product is provided AS-IS and no warranties are in effect. If you encounter any issues - please use the bug tracker and I'll be quick to reply.
 
 Thanks for using BIT PHP Library!
