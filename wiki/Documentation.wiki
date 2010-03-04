@@ -14,18 +14,18 @@ BIT PHP Library provides the user to make 3 calls to the Bandsintown API engine:
 
 Let's take an example of a simple artist event search using the BIT PHP Library.
 
-  1 Include the BIT.php in your source
+1 Include the BIT.php in your source
 {{{ 
     include ("BIT.php");
 }}}
 
-  2 Create an instance and Set your API key for the Instance. Please note that Bandsintown doesn't have an API Signup process - so you can use string value for your API key.
+2 Create an instance and Set your API key for the Instance. Please note that Bandsintown doesn't have an API Signup process - so you can use string value for your API key.
 {{{
     $myBIT = new BIT();
     $myBIT->setAPI("APIKEYHERE");
 }}}
 
- 3 Perform the single artist events search API
+3 Perform the single artist events search API
 {{{
     try
     {
