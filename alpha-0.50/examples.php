@@ -63,7 +63,7 @@
 			$venue_region = $events->venue->region;
 			$venue_name = $events->venue->name;
 			
-			echo $venue_name . " (" . $venue_city . "," . $venue_name . ") on " . $dateofevent . "<br>";
+			echo $venue_name . " (" . $venue_city . "," . $venue_region . ") on " . $dateofevent . "<br>";
 		}
 	}
 	catch(Exception $e)
@@ -102,7 +102,7 @@
 			$venue_region = $events->venue->region;
 			$venue_name = $events->venue->name;
 			
-			echo $main_artist . " - " . $venue_name . " (" . $venue_city . "," . $venue_name . ") on " . $dateofevent . "<br>";
+			echo $main_artist . " - " . $venue_name . " (" . $venue_city . "," . $venue_region . ") on " . $dateofevent . "<br>";
 		}
 	}
 	catch(Exception $e)
