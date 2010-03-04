@@ -4,13 +4,15 @@
 
 This class had made it very simple to make API calls to Bandsintown to receive concert data about artists and related artists.
 
-= Details =
+== Details ==
 
 BIT PHP Library provides the user to make 3 calls to the Bandsintown API engine:
-  # Artist Information Search
-  # Single Artist Search
-  # Event Search (for multiple artists and location)
-  # Artist Recommended Event Search (for multiple artists and location)
+  # <a href="http://www.bandsintown.com/api/requests#artists-get">Artist Search</a>
+  # <a href="http://www.bandsintown.com/api/requests#artists-events">Get Artists Events</a>
+  # <a href="http://www.bandsintown.com/api/requests#events-search">Event Search (by Location or Artist)</a>
+  # <a href="http://www.bandsintown.com/api/requests#events-recommended">Event Recommended Search (by Artist)</a>
+
+== Steps ==
 
 Let's take an example of a simple artist event search using the BIT PHP Library.
 
@@ -55,7 +57,13 @@ Step 3. Perform the single artist events search API
 
 }}}
 
+bit-php-library returns an json decoded array of elements that you can parse through using a foreach loop.
+
+Please refer to to <a href="http://www.bandsintown.com/api/responses">Bandsintown's API Documentation</a> for the list of json responses.
+
 It's that simple! Please refer to the examples.php for more on how you can you perform other calls with this library.
+
+----
 
 DISCLAIMER: This code is open source. That means, in plain English, that I cannot guarantee the effectiveness of the code and that it is production ready. The Product is provided AS-IS and no warranties are in effect. If you encounter any issues - please use the bug tracker and I'll be quick to reply.
 
