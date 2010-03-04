@@ -12,6 +12,7 @@
  *  
  */
 class BIT {
+	
 	public $api_key;
 	protected $apiBase = "http://api.bandsintown.com/";
 	protected $userAgent = "BIT Library V-0.50 (http://code.google.com/p/bit-php-library/)";

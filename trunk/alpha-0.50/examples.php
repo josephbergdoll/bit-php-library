@@ -3,12 +3,16 @@
 * 
 * Developed by Greg Avola (http://twitter.com/gregavola)
 *
-* For more documentation please refer to code.google.com/
+* For more documentation please refer to http://code.google.com/p/bit-php-library/
 *
 * examples.php - The file will provide some examples for you to get started.
 *													
 */
 
+	?>
+		<h1>BIT API PHP Library - Examples </h1>
+		<p>This file should give a good overview on how this class works. Please refer to <a href="http://code.google.com/p/bit-php-library/">http://code.google.com/p/bit-php-library/</a> for more documentation.</p>
+	<?
 	// include the BIT class file
 	include ("BIT.php");
 	
