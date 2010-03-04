@@ -10,6 +10,7 @@ BIT PHP Library provides the user to make 3 calls to the Bandsintown API engine:
   # Artist Information Search
   # Single Artist Search
   # Event Search (for multiple artists and location)
+  # Artist Recommended Event Search (for multiple artists and location)
 
 Let's take an example of a simple artist event search using the BIT PHP Library.
 
