@@ -33,7 +33,7 @@ Let's take an example of a simple artist event search using the BIT PHP Library.
 	$artists = "Angels and Airwaves";
 		
 	// perform the get Artist function
-	$results = $x->getEventsForSingleArtist($artists);
+	$results = $myBIT->getEventsForSingleArtist($artists);
 		
 	// loop through the response
 	foreach($results as $events)
